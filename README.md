@@ -1,9 +1,13 @@
-# project-submission
-This repository is for submiting project codes of CSE574-Spring 2020. Please follow the submission instructions below to submit your project codes.
+# Brain MR Image Tumor Classifier
 
-- Step 1: Search `CSE574Spring2020/project-submission`, then click 'Fork' on the topright corner.
-- Step 2: New pull request (Base fork:Your/Base: master <— Head Fork: CSE574Spring2020's/Compare: master). Note that you may need to *1) switch the base for your comparison*, *2) compare across forks*, *3) creat pull request*, *4) merge pull request*, *5) confirm merge*. This step is important which merges this repository to your own's.
-- Step 3: Upload your codes to your own repository.
-- Step 4: Pull request (Base fork: CSE574Spring2020's/Base: **Your-own-brunch** <— Head Fork: Your own/Compare: **Your-own-brunch**). Please make sure that you upload to **Your-own-brunch** as the base fork. 
+## Pre-requisites for executing the code:
 
-We have create a unique branch for each group， which is prefixed with the name of your TA. If you do not find your group's branch, please ask your TA to create one. Please note that you will get **0 points** if we don't find codes on your own branch.
+-	The datasets should be placed in the same directory while executing the code. 
+-	The code is run and tested in Jupyter Notebook.
+-	“CNNwithPytorch_Model.ipynb” and “VGG16withPytorch_Model.ipynb” use the MRI_Data dataset. 
+-	“CNNwithKeras_Model.ipynb” uses MRI_Data_Keras dataset.
+-	Use the zipped data set, do not extract the contents of the folder. It is taken care in the code itself.
+-	PIP should be installed before installing and importing all the packages mentioned in the notebook.
+-	For CV2, OpenCV should be installed; for PIL, pillow should be installed.
+-   Download the sav file of our model from this link: https://buffalo.box.com/s/5rbes0gi7xk9ch23i98x7cavjhbvcqr4 (Github doesnot allow to push more than 100 MB file)
+-	The “.command” file and “.sav” file are created for the UI. It works only on Mac.
